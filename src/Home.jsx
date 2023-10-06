@@ -24,7 +24,7 @@ style={{
     <Box style={{position: "relative" , paddingRight:50}}>
     <img src="/assets/logo1.jpg" alt="Logo" style={{ position : "absolute", marginTop:22,marginLeft:78 }} />
     <img src="/assets/textimg1.png" alt="" style={{ position : "absolute", marginTop:227,marginLeft:100 }} />
-    <Typography variant="body2" style={{position:"absolute", marginLeft:100, marginTop:460, color: bodyGray }}>
+    <Typography variant="body2" style={{position:"absolute", marginLeft:100, marginTop:460, color: bodyGray, fontWeight:300 }}>
      Naturally made Healthcare Products for the <br/>
      better care & support of your body.
     </Typography>
@@ -61,19 +61,22 @@ style={{
             position:"absolute"
         }}/>
         </div>
-        <div>
-        <img src="/assets/Vector 1.svg" alt="Red"   style={{
-            position:"absolute"
-        }}/>
-        </div>
+        <div style={{
+  position: "absolute",
+  top: 0,
+  right: 0
+}}>
+  <img src="/assets/Vector 1.svg" alt="Red" />
+</div>
+
         <Button variant = "outlined"
     size="small"
     style={{background: "transparent",
     color: "white",
     borderRadius: 16,
     position: "absolute",
-    top: 25,
-    right:  10 , // Adjust the right distance from the screen edge
+    top: 35,
+    right:  35 , // Adjust the right distance from the screen edge
     border: "1px solid white",
     fontSize: "0.8rem",  }}>
         <Typography variant="caption" display={"block"} gutterBottom>

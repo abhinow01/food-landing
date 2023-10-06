@@ -1,0 +1,16 @@
+@media (max-width: 375px) {
+    /* Styles for screens less than or equal to 375px wide (typically mobile) */
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 376px) and (max-width: 1440px) {
+    /* Styles for screens between 376px and 1440px wide (typically desktop and tablets) */
+    .container {
+      max-width: 1440px;
+      padding: 20px;
+    }
+  }
+  

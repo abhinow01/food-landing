@@ -30,7 +30,9 @@ const About = () => {
          }}>
           About Us
         </Typography>
-        <Typography variant="caption" paragraph>
+        <Typography variant="caption" paragraph style={{
+          fontWeight:300
+        }}>
         Lorem Ipsum is simply dummy text of the printing and 
         typesetting industry. Lorem Ipsum has been the industry's <br/>
         standard dummy text ever since the 1500s, when an unknown <br/>

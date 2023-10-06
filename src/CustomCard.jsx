@@ -9,7 +9,10 @@ const CustomCard = ({image , title , content})=>{
         <>
 <Card   
 style={{
-    padding: "20px"
+    padding: "20px",
+    minHeight:"554",
+    // overflow:"auto",
+    borderRadius:40
 }}>
     <CardMedia 
     component="img"
@@ -22,24 +25,30 @@ style={{
              borderRadius:30}}
     />
         <CardContent style={{
-            color: primary,
             padding:20
         }}>
-            <Typography variant="h6">
+            <Typography variant="h6" style={{
+                color: primary
+            }}>
                 {title}
             </Typography>
-            <Typography variant="caption">
+            <Typography variant="caption" style={{
+                fontWeight: 300
+            }}>
                     {content}
             </Typography>
             <br/>
+            <br/>
             <Button 
             style={{
-                borderRadius: 10,
+                borderRadius: 16,
                 background:"transparent",
                 color: primary,
                 border: "1px solid black",
             }}>
-                <Typography variant="caption">
+                <Typography variant="caption" style={{
+                    padding:2
+                }}>
                 Read More 
                 </Typography>
             </Button>
